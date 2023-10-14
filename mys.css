@@ -1,0 +1,91 @@
+
+body{
+    background-color: rgb(192, 200, 200);
+}
+h1{
+    background-color: rgb(148, 178, 180);
+}
+.mid{
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tableclass{
+    border: 0.25px solid #9d4747;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 40vh;
+     text-align: center;
+     text-decoration-color: rgb(1, 1, 26);
+        
+}
+.link_c{
+    background-color: rgb(131, 150, 150);
+    color: rgb(28, 8, 245);
+}
+.imc{
+    display: flex;
+     height: 10vh;
+     width: 10vh;
+     margin-left: auto;
+     margin-right: auto;
+
+}
+.use_hover{
+background-color: brown;
+width: 200px;
+height: 200px;
+ margin-left: auto;
+ transition: all 1s;
+}
+.use_hover:hover{
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+ul{
+   
+    list-style-type: circle;
+   list-style-position: outside;
+}
+ul.nav{
+
+    list-style-type: none;
+    justify-content: center;
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+ul.nav li{
+
+   background-color: blue;
+}
+ul.nav li a{
+color: aquamarine;
+text-transform: capitalize;
+display: block;
+border: ridge;
+padding: .35rem 1rem;
+   
+}
+ul.nav li:hover{
+
+    background-color: black;
+    color: darkgreen;
+}
+ul.my{
+margin: 0;
+padding: 0%;
+list-style-type:none;
+}
+ul.my{
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+ul.nav li:hover ul.my{
+    display: block;
+}
