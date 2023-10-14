@@ -5,11 +5,15 @@ body{
 h1{
     background-color: rgb(148, 178, 180);
 }
+h6{
+    background-color: blanchedalmond;
+}
 .mid{
    
     display: block;
     margin-left: auto;
     margin-right: auto;
+
 }
 .tableclass{
     border: 0.25px solid #9d4747;
